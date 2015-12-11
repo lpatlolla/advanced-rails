@@ -1,0 +1,7 @@
+<h1>Thanks#stores</h1>
+<p>Find me in app/views/thanks/stores.html.erb</p>
+<h1>List Of Stores</h1>
+<%= form_tag "/thanks/products", method: :get do  %>
+  <%= collection_select(:store, :id, @stores.all, :id, :name_with_id) %>
+  <%= submit_tag "Select Store and Proceed" %>
+<% end %>

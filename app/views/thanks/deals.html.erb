@@ -1,0 +1,26 @@
+<h1>Thanks#deals</h1>
+<p>Find me in app/views/thanks/deals.html.erb</p>
+<table id="deals">
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>price</th>
+      <th>expires</th>
+      
+    </tr>
+  </thead>
+  <% @deals.each do |deal| %>
+    <tr>
+      <td>
+        <%= deal.d_name %>
+      </td>
+      <td>
+        <%= deal.price %>
+      </td>
+      <td>
+        <%= deal.expires %>
+      </td>
+     
+    </tr>
+  <% end %>
+</table>

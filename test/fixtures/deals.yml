@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  d_name: MyString
+  price: 1.5
+  expires: 2015-12-11 03:14:14
+  Product_id: 
+
+two:
+  d_name: MyString
+  price: 1.5
+  expires: 2015-12-11 03:14:14
+  Product_id: 
